@@ -1,0 +1,11 @@
+{
+    "name": "ltaoo/thinkphp_dingtalk",
+    "description": "dingding",
+    "authors": [
+        {
+            "name": "ltaoo",
+            "email": "gg.cn.lt@gmai.com"
+        }
+    ],
+    "require": {}
+}
