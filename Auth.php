@@ -1,7 +1,7 @@
 <?php
-namespace app\index\api;
+namespace dingtalk;
 
-use \app\index\api\Http;
+use \dingtalk\Http;
 // require_once "ding.php";
 class Auth
 {

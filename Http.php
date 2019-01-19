@@ -1,5 +1,5 @@
 <?php
-namespace app\index\api;
+namespace dingtalk;
 
 class Http{
     //GET请求
