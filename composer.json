@@ -8,7 +8,6 @@
         }
     ],
     "require": {},
-    "license" : "v1.0",
     "autoload" : {
       "psr-4" : {
         "dingtalk\\" : ""
