@@ -31,7 +31,7 @@ class Department
             $this->url."/department/list",
             array("access_token" => $accessToken)
         );
-        $response = json_decode($response);
+        $response = json_decode($response,true);
         return $response->department;
     }
     
