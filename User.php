@@ -30,7 +30,7 @@ class User
         $response = $this->http->get($this->url."/user/simplelist",
             array("access_token" => $accessToken,"department_id"=>$deptId));
         $response = json_decode($response,true);
-        return $response->userlist;
+        return $response['userlist'];
 
     }
 

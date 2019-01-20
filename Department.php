@@ -32,7 +32,7 @@ class Department
             array("access_token" => $accessToken)
         );
         $response = json_decode($response,true);
-        return $response->department;
+        return $response['department'];
     }
     
     
